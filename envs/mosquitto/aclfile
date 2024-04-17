@@ -1,0 +1,12 @@
+# ACL File
+# Permissions types: read, readwrite.
+
+# User specific permissions
+user sebastian
+topic readwrite cryptocurrency/#
+topic readwrite governance/#
+topic readwrite updates/#
+topic readwrite smart_contracts/#
+# Add more channels here
+
+# Add more users here

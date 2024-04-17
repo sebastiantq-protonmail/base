@@ -1,0 +1,21 @@
+1704649966: mosquitto version 2.0.18 starting
+1704649966: Config loaded from /mosquitto/config/mosquitto.conf.
+1704649966: Warning: File /mosquitto/config/pwfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/pwfile`.
+1704649966: Warning: File /mosquitto/config/aclfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/aclfile`.
+1704649966: Opening ipv4 listen socket on port 1883.
+1704649966: Opening ipv6 listen socket on port 1883.
+1704649966: mosquitto version 2.0.18 running
+1704651767: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704651767: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1704651767: Error: Permission denied.
+1704653568: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704653568: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1704653568: Error: Permission denied.
+1704655369: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704655369: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1704655369: Error: Permission denied.
+1704657170: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1704657170: Error saving in-memory database, unable to open /mosquitto/data//mosquitto.db.new for writing.
+1704657170: Error: Permission denied.

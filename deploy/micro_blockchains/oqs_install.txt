@@ -1,0 +1,22 @@
+1.
+sudo apt-get update
+sudo apt-get install -y gcc cmake ninja-build git python3-pip
+
+
+2.
+git clone --depth=1 https://github.com/open-quantum-safe/liboqs
+cd liboqs
+cmake -S . -B build -DBUILD_SHARED_LIBS=ON
+cmake --build build --parallel
+sudo cmake --build build --target install
+cd ..
+
+3.
+git clone --depth=1 https://github.com/open-quantum-safe/liboqs-python
+cd liboqs-python
+pip3 install .
+cd ..
+
+4.
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
+

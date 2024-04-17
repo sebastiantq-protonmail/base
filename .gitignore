@@ -1,0 +1,11 @@
+# Byte-compiled / optimized / DLL files
+**/__pycache__
+
+# File to store the list of post-quantum wallets with their private keys
+**/post_quantum_wallets.txt
+
+# File to store the mosquitto password
+**/mosquitto/pwfile
+
+# Environment file for the micro_blockchains
+**/micro_blockchains/.env
